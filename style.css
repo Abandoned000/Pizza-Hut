@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menubar p{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 18px;
+    margin: 0px 15px;
+    color:white;
+
+}
+
+.menubar{
+    display: flex;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    align-items: center;
+}
+
+.menubar:hover{
+    opacity: 1.0;
+}
+
+.home{
+    background-image: url("https://storage.googleapis.com/replit/images/1621588977947_0fa2bbd18d59ed04fc02343aa8bb7340.jpeg");
+    background-size: cover;
+    filter: grayscale(50%);
+    position: relative;
+    display: flex;
+    width:100%;
+    height:90vh;
+}
+
+
+.openhour{
+    position: absolute;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+    padding:3px;
+    bottom:0;
+    left:10px;
+}
+
+.intro{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+    line-height: 1.75;
+}
+
+.menuintro{
+    display: inline-block;
+    z-index: 1;
+    color: white;
+    background-color: black;
+    padding:12px;
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.menuintro:hover{
+    background-color: gray;
+    color: black;
+}
+
+.menu{
+    position: relative;
+    display: block;
+    border-style: solid;
+    padding: 300px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: black;
+}
+
+.realmenu{
+    border-style: solid;
+    
+    margin-top: 70px;
+    
+}
+
+.title{
+    font-size: 100px;
+    font-family: "Amatic SC", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.foodtype{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.foodtype p{
+    padding: 5px;
+    color:white;
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+
+.foodtype div{
+    flex-grow: 1;
+}
+
+.firstfood{
+    background-color: white;
+    padding:20px;
+    padding-bottom: 0px;
+}
+
+.foodandprice{
+    display: flex;
+    font-size: 40px;
+    font-family: "Amatic SC", sans-serif;
+    justify-content: space-between;
+}
+
+.price{
+    padding:5px;
+    left:100px;
+    background-color: gray;
+    border-radius: 4px;
+    color:white;
+}
+
+.dis{
+    font-size: 40px;
+    font-family: "Amatic SC", sans-serif;
+    margin-top: 20px;
+}
+
+.line{
+   margin-top: 30px;
+    color: gray;
+}
+
+.foodspecial2{
+    display: flex;
+}
+
+.stat2{
+    font-size: 35px;
+    font-family: "Amatic SC", sans-serif;
+    margin-left: 10px;
+    background-color: gray;
+    border-radius: 4px;
+    padding:5px;
+}
+
+.foodspecial1{
+    display: flex;
+}
+
+.stat1{
+    font-size: 35px;
+    font-family: "Amatic SC", sans-serif;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    padding:5px;
+}
+
+
+.info{
+    position: relative;
+    background-color: #f44336;
+    filter: grayscale(75%);
+    padding: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.information{
+    margin-top: 100px;
+    color: white;
+    font-size: 25px;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.pic{
+    width: 150px;
+    border-radius: 100px;
+}
+
+.info2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.pic2{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.opentime{
+    color: white;
+    font-size: 45px;
+    font-family: "Amatic SC", sans-serif;
+    margin-top: 50px;
+}
+
+.dayoftheweek{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.time{
+    color: white;
+    font-size: 25px;
+    font-family: "Amatic SC", sans-serif;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.contact{
+    background-color: #607d8b;
+    filter: grayscale(50%);
+    padding: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 35px;
+    font-family: "Amatic SC", sans-serif;
+}
+
+
+.specialinfo{
+    background-color: black;
+    display: inline-block;
+    padding:5px;
+}
+
+.form{
+    margin-top: 50px;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 25px;
+    padding: 12px;
+    font-family: "Amatic SC", sans-serif;
+    height: 50px;
+    margin-top: 30px;
+}
+
+input[type=date] {
+    width: 100%;
+    font-size: 25px;
+    padding: 12px;
+    font-family: "Amatic SC", sans-serif;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    width: 100%;
+    filter: grayscale(30%);
+    border-style: solid ;
+    text-align: center;
+    margin-top: 30px;
+    border-width: 0cm;
+    padding: 13px;
+}
+
+.button:hover{
+    background-color: gray;
+    filter: grayscale(70%);
+}
+
+.final{
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: "Amatic SC", sans-serif;
+    padding: 100px;
+}
+
+
+
+
+
+
